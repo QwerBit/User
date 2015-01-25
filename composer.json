@@ -1,0 +1,23 @@
+{
+    "name": "qwerbit/user",
+    "description": "",
+    "authors": [
+        {
+            "name": "Qwerbit",
+            "email": "alex@qwerbit.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Qwerbit\\User\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
